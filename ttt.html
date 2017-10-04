@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="ttt-style.css">
+</head>
+<body>
+
+	<div class="container text-center">
+		<div class="title">
+			<h1>Tic Tac Toe</h1>
+		</div>
+		<div class="row">
+		<div id="player-selectionns">
+			<input type="text" placeholder="Enter your name" id="player-name" /><br>
+			<button id="one-player" class="btn btn-primary">One player game</button>
+			<button id="two-player" class="btn btn-primary">Two player game</button>
+		</div>
+			<div id="message" class="col-sm-12">
+				<!-- Message to the user -->
+			</div>
+			<div class="col-sm-2">
+				Player 1 score: <span class='player1-score'>0</span>
+			</div>
+			<div id="board" class="col-sm-12">
+				<div class="board-row">
+					<button id="A1" class="square">*</button>
+					<button id="A2" class="square">*</button>
+					<button id="A3" class="square">*</button>
+				</div>
+				<div class="board-row">
+					<button id="B1" class="square">*</button>
+					<button id="B2" class="square">*</button>
+					<button id="B3" class="square">*</button>
+				</div>
+				<div class="board-row">
+					<button id="C1" class="square">*</button>
+					<button id="C2" class="square">*</button>
+					<button id="C3" class="square">*</button>
+				</div>
+			</div>
+		<div class="col-sm-2">
+			Player 2 score: <span class='player2-score'>0</span>
+		</div>
+		</div>
+		<div id='reset-button'>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="ttt-script.js"></script>
+
+</body>
+</html>

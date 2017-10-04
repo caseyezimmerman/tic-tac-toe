@@ -1,0 +1,56 @@
+body{
+	background: url("ttt-background.jpg") no-repeat center;
+	background-repeat: repeat;
+	
+}
+
+h1{
+	text-align: center;
+	font-size: 80px;
+	color: black;
+}
+
+img{
+	width: 80%;
+	height: 80%;
+}
+#board{
+	text-align: center;
+	max-width: 600px;
+	min-width: 320px;
+	/* float: none; */
+	margin: auto;
+
+
+}
+
+.square{
+	height: 150px;
+	width: 150px;
+	background-color: transparent;
+	border: 2px solid black;
+	outline: none;
+	font-size: 30px;
+}
+
+.square:hover{
+	border:1px solid white;
+}
+
+#message{
+	text-align: center;
+	color: navy;
+	font-family: "Arial";
+	font-size: 35px;
+	min-height: 80px
+}
+
+.winning-square{
+	background-color: rebeccapurple !important;
+}
+
+input{
+	margin-bottom: 10px;
+}
+
+
